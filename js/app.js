@@ -20,7 +20,6 @@ angular.module('NoteWrangler', ['ngRoute', 'ngResource']).config(
     .when('/notes/new', {
       templateUrl: 'templates/pages/notes/edit.html',
       controller: 'NotesCreateController',
-      controllerAs: 'notesEditCtrl'
     })
     .when('/notes/:id', {
       templateUrl: 'templates/pages/notes/show.html',

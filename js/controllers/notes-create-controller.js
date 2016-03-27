@@ -1,7 +1,7 @@
 angular.module('NoteWrangler')
 .controller('NotesCreateController', [function(Note) {
 
-	$scope.note = new Note();
+  $scope.note = new Note();
 
   this.saveNote = function(note){
     $scope.errors = null;
